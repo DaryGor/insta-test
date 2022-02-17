@@ -24,9 +24,10 @@
         height: 100%;
         left: 0;
         top: 70px;
+        pointer-events: none;
 
         @media (max-width: 1024px) {
-            top: 80px;
+            top: 77px;
         }
     }
 
