@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $main-font;
+    font-size: $base-font;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    padding: 0 30px;
+}

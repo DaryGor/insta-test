@@ -1,0 +1,17 @@
+.hero {
+    padding: 130px 0 30px;
+    background-color: $blue;
+
+    &__text {
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: $purple;
+        color: $white;
+    }
+}

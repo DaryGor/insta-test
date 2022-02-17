@@ -1,0 +1,19 @@
+// download these files first
+@import './global/fonts';
+@import './global/variables';
+@import './global/common';
+
+// libs
+@import './lib/normalize';
+
+// settings and general styles
+@import './global/mixins';
+
+// partials 
+@import './partials/header';
+@import './partials/footer';
+@import './partials/modal';
+
+// sections
+@import './sections/hero';
+@import './sections/slider';

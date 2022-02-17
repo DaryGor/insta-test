@@ -1,0 +1,71 @@
+@import '/node_modules/swiper/swiper.min.css';
+@import '/node_modules/swiper/modules/pagination/pagination.min.css';
+
+.slider {
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        &--1 {
+            background-color: #FF69B4;
+        }
+
+        &--2 {
+            background-color: #6495ED;
+        }
+
+        &--3 {
+            background-color: #98FB98;
+        }
+
+        &--4 {
+            background-color: #EE82EE;
+        }
+        
+        &--5 {
+            background-color: #6A5ACD;
+        }
+
+        &--6 {
+            background-color: #00FA9A;
+        }
+    }
+
+    &__image-wrapper {
+        width: 50%;
+        margin: 0 auto;
+        height: 50%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__img {
+        position: relative;
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    &__text {
+        display: block;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+    }
+
+    &__pagination {
+        @media (max-width: 1042px) {
+            display: none;
+        }
+    }
+}
